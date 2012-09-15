@@ -9,7 +9,7 @@
   
     <groupId>org.hudsonci.plugins</groupId>
     <artifactId>translation</artifactId>
-    <version>1.10-h-1-SNAPSHOT</version>
+    <version>1.10-h-1</version>
     <packaging>hpi</packaging>
   
     <name>Hudson Translation Assistance plugin</name>
