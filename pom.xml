@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+  
+    <parent>
+        <groupId>org.eclipse.hudson.plugins</groupId>
+        <artifactId>hudson-plugin-parent</artifactId>    
+        <version>3.0.0-RC2</version>
+    </parent>
+  
+    <groupId>org.hudsonci.plugins</groupId>
+    <artifactId>translation</artifactId>
+    <version>1.10-h-1-SNAPSHOT</version>
+    <packaging>hpi</packaging>
+  
+    <name>Hudson Translation Assistance plugin</name>
+    
+    <description> 
+       This plugin enables capability to translate messages in a page. 
+       If you have admin previlege your contributions will be reflected right away.
+       Just reload the page to see the effect. You can also send your contributions
+       to Hudson project for inclusion in future versions of Hudson.
+    </description>
+  
+    <url>http://wiki.hudson-ci.org/display/HUDSON/Translation+Assistance+Plugin</url>
+    
+     <properties>
+        <hudsonTags>utils</hudsonTags>
+    </properties>
+    
+    <developers>
+        <developer>
+            <id>wjprakash</id>
+            <name>Winston Prakash</name>
+            <email>winston.prakash@gmail.com</email>
+            <roles>
+                <role>
+                    Maintainer
+                </role>
+            </roles>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/hudson3-plugins/translation-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:hudson3-plugins/translation-plugin.git</developerConnection>
+        <url>http://github.com/hudson3-plugins/translation-plugin</url>
+    </scm>
+
+</project>  
+  
+
